@@ -59,13 +59,9 @@ def get_sequence(new_command: str, new_seq: str, seq_type: str):
 
 
 def main():
-    """ The function checks if the command corresponds to seq_type.
-    "transcribe" cannot be used
-    with RNA (but "reverse-complement", "reverse-transcribe", "reverse", and "complement" can).
-    "reverse-transcribe" cannot be used
-    with DNA (but "reverse-complement", "transcribe", "reverse", and "complement" can).
-
-    :return:
+    """ The program reads commands from the user in an infinite loop. After the command, the program asks the user for
+    a sequence of nucleic acid and prints the result.
+    The program saves the case of characters and works only with sequences of nucleic acids.
     """
     commands = ["help", "reverse", "complement", "reverse-complement", "transcribe", "reverse-transcribe", "exit"]
 
