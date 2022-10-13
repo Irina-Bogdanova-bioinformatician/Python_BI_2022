@@ -108,7 +108,7 @@ def main(input_fastq: str, output_file_prefix: str, gc_bounds=(0, 100), length_b
                         out_passed.write(separator + "\n")
                         out_passed.write(quality_line + "\n")
 
-        if filtered_reads and save_filtered:
+        if filtered_reads:
             out_file_filtered = output_file_prefix + "_filtered.fastq"
             with open(out_file_filtered, "w") as out_filtered:
                 for read_info in filtered_reads:
