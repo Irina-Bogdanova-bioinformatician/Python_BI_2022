@@ -1,3 +1,4 @@
-# Python_BI_2022
+# fastq_filtrator.py
 
-This repository contains homework/projects on the Python discipline (Bioinformatics Institute, St. Petersburg, Russia).
+Filtering of reads in fastq by GC composition, quality, length, saving results to files.
+
