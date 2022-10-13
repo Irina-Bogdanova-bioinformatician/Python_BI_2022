@@ -2,7 +2,7 @@ def length_filter(seq: str, length_bounds: list or int) -> bool:
     """Answering the question if the sequence (str) passes the length filter.
     :param seq: a string
     :param length_bounds: the length interval for filtering, by default (0, 2**32), including bounds.
-    If one value is indicating - this is the upper bound.
+    If one value is indicating - this is the upper bound
     :return: boolean value indicating if the filter is passed
     """
     seq_length = len(seq)
@@ -62,7 +62,7 @@ def main(input_fastq: str, output_file_prefix: str, gc_bounds=(0, 100), length_b
     :param output_file_prefix: the prefix of the path to the file to which the result will be written.
     :param gc_bounds: the GC interval (in percent) for filtering (by default is (0, 100), including bounds
     :param length_bounds: the length interval for filtering, by default (0, 2**32), including bounds.
-    If one value is indicating - this is the upper bound.
+    If one value is indicating - this is the upper bound
     :param quality_threshold: the threshold value of the average read quality (phred33 scale), 0 by default
     :param save_filtered: whether to save the filtered rows, False by default
     """
