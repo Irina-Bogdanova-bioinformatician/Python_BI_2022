@@ -4,7 +4,7 @@ This instruction is intended to run the script on the following system:
 Ubuntu-20.04 on WSL2 on Windows 11 (for home), version 21H2, build 10.0.22000.978
 
 ### Requirements
-python==3.11
+python==3.11\
 gcc==9.4.0
 
 If these requirements are not satisfied, run:
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ~~~
 
 ### Change frame.py in pandas package installed to new venv
- Open path/to/new_venv_name/lib/python3.11/site-packages/pandas/core/frame.py.
+ Open path/to/new_venv_name/lib/python3.11/site-packages/pandas/core/frame.py.\
  Don't be shy and comment out the lines 635, 636.\
  These two:\
  635      if index is not None and isinstance(index, set):\
