@@ -3,12 +3,12 @@
 The module that includes following functions:
 
 **multiplication_check(matrices_list)**
-  Input: a list of 2-dimensional matrices.\
+  Input: a list of 2-dimensional matrices.
   Return: True if they can be multiplied by each other in the order in which they are in the list, and False if they cannot be multiplied.
 
 
 **matrix_multiplication(m_1, m_2)**
-  Carry out multiplication of two matrices.\
+  Carry out multiplication of two matrices.
   Return: result matrix.
 
 **multiply_matrices(matrices_list)**
