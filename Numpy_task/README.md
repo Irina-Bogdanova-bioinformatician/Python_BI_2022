@@ -6,7 +6,6 @@ The module that includes following functions:
   Input: a list of 2-dimensional matrices.
   Return: True if they can be multiplied by each other in the order in which they are in the list, and False if they cannot be multiplied.
 
-
 **matrix_multiplication(m_1, m_2)**
   Carry out multiplication of two matrices.
   Return: result matrix.
