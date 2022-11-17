@@ -44,7 +44,7 @@ barplot = plt.bar(lengths_fractions.keys(), lengths_fractions.values(), color='g
 plt.title("Word length distribution in '2430 A.D'")
 plt.xlabel("Word length")
 plt.ylabel("Fraction, %")
-# plt.show()
+plt.show()
 
 """ 6. Сделайте функцию-переводчик с русского на "кирпичный язык"
 https://yandex.ru/q/question/kirpichnyi_iazyk_kak_govorit_cc88f9dc/
