@@ -1,3 +1,7 @@
-# Python_BI_2022
+# Parallel programming home work
 
-This repository contains homework/projects on the Python discipline (Bioinformatics Institute, St. Petersburg, Russia).
+The work is presented in HW_4.ipynb notebook.
+
+**Task 1** 
+
+Parallel programming has been added to the custom implementation of Random Forest to get an increase in the speed of learning and predictions.
